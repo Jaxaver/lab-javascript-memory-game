@@ -54,7 +54,8 @@ After connecting them properly, you should be able to see the board, the tiles, 
 
 ### Iteration 2: The `MemoryGame` class
 
-We will test our game logic using Jasmine (at this point, you should be **Jasmine Masters!**). Actually, for this game the game logic is pretty simple, we only going to need a `MemoryGame` class, and some *methods* to shuffle and compare cards, and one to check if the game is finished.
+We will test our game logic using Jasmine (at this point, you should be **Jasmine Masters!**). Actually, for this game the game logic is pretty si
+mple, we only going to need a `MemoryGame` class, and some *methods* to shuffle and compare cards, and one to check if the game is finished.
 
 If you open `memory.js` file, you will see that it is preset for you:
 
@@ -66,7 +67,7 @@ class MemoryGame {
   }
   shuffleCards() {}
   checkIfPair(card1, card2) {}
-  isFinished() {}
+  isFinished() {} 
 }
 ```
 
